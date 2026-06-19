@@ -12,6 +12,10 @@ common seed for which to grow from.
 
 # Main ideas
 
+- this is a WORKSPACE directory, a directory for your git repos, it's
+  not supposed to be a git repo itself (but I have it as one so you
+  can clone it)
+  - agent/ should be it's own git repo after you clone
 - agent scratch space is in ./agent
 - separate live mutable artifacts ./agent/live from point-in-time
   mostly immutable/append-only artifacts in ./agent/ledger
