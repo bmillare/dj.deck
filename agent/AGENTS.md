@@ -35,10 +35,11 @@ tracked by this repo.
 
 ## Watson method (how we track work)
 
-Progress is tracked as **Reflective Inquiry (RI)** entries in `live/watson_log.md`.
-See `ledger/watson_log_guide_agents.md` for the full rationale. Each entry has four
-sections in order: **DONE → KNOW → TO KNOW → TO DO**, where *TO KNOW* (the
-knowledge gaps) is the driver and every *TO DO* serves a *TO KNOW*.
+Progress is tracked as **Reflective Inquiry (RI)** entries in
+`live/watson_log.md`.  See `live/guides/watson_log_guide_agents.md`
+for the full rationale. Each entry has four sections in order: **DONE
+→ KNOW → TO KNOW → TO DO**, where *TO KNOW* (the knowledge gaps) is
+the driver and every *TO DO* serves a *TO KNOW*.
 
 Conventions:
 - New RI entries are appended at the **bottom** of `watson_log.md` (oldest first).

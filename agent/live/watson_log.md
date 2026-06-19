@@ -1,7 +1,7 @@
 # Watson log (Reflective Inquiry)
 
 > Chronological order. Newest entry at the bottom
-> See @../ledger/watson_log_guide_agents.md for format details
+> See @live/guides/watson_log_guide_agents.md for format details
 
 Reminder: The key idea behind the watson log is that software
 development is fundamentally a process about improving
