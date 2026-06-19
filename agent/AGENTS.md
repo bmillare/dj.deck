@@ -39,7 +39,9 @@ Progress is tracked as **Reflective Inquiry (RI)** entries in
 `live/watson_log.md`.  See `live/guides/watson_log_guide_agents.md`
 for the full rationale. Each entry has four sections in order: **DONE
 → KNOW → TO KNOW → TO DO**, where *TO KNOW* (the knowledge gaps) is
-the driver and every *TO DO* serves a *TO KNOW*.
+the driver and every *TO DO* serves a *TO KNOW*. You should be logging
+entries here after every major turn. (Some turns are called out to be
+ephemeral)
 
 Conventions:
 - New RI entries are appended at the **bottom** of `watson_log.md` (oldest first).
@@ -68,8 +70,9 @@ live state docs, and ledger artifacts).
 ## Session handoff (surviving a context clear)
 
 The human may clear the conversation between major turns **while
-services are still running**. To resume without re-standing-up
-anything:
+services are still running**. This means that after any major turn,
+you should log your work in the watson log. To resume without
+re-standing-up anything:
 
 - run status scripts to reorient yourself quickly
 - Then read `watson_log.md` (newest RI at the bottom), `TODO.md`, and
