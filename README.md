@@ -34,3 +34,5 @@ common seed for which to grow from.
 - initialize/clone your CODE repos inside this WORKSPACE directory
   - WORKSPACE should contain repo folders, not the immediate code
     items
+- optional: delete the .git in the WORKSPACE directory to avoid
+  confusion
