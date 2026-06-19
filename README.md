@@ -29,6 +29,8 @@ common seed for which to grow from.
 
 - clone this template as your WORKSPACE directory
 - initialize a NEW git repo inside the agent/ directory
+  - be sure to edit/customize AGENTS.md
+    - especially by adding your name etc
 - initialize/clone your CODE repos inside this WORKSPACE directory
   - WORKSPACE should contain repo folders, not the immediate code
     items
