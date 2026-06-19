@@ -11,13 +11,24 @@ on it's own, this template intends accelerate the process and be a
 common seed for which to grow from.
 
 # Main ideas
+
 - agent scratch space is in ./agent
 - separate live mutable artifacts ./agent/live from point-in-time
   mostly immutable/append-only artifacts in ./agent/ledger
 - a watson log in ./agent/live/watson_log.md
   - an opinionated understanding oriented progress log for effective
     research and software development
+    - see Rich Hickey's "Design In Practice"
+      https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/DesignInPractice.md
   - better then just going off of git history or a todo list
 - active todos in ./agent/live/TODO.md
 - north_star.md doc to create broad context and guidance without
   defining how to do it
+
+# Usage
+
+- clone this template as your WORKSPACE directory
+- initialize a NEW git repo inside the agent/ directory
+- initialize/clone your CODE repos inside this WORKSPACE directory
+  - WORKSPACE should contain repo folders, not the immediate code
+    items
